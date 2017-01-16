@@ -1,0 +1,14 @@
+git log --stat
+	gives +/- count of changes by file in the repository
+git diff id1 id2
+	provides diff file-by-file
+git --version
+	check git version
+git clone
+	make a copy of an entre git repository
+git help <command>
+	For example, to get help on the command git diff, run git help diff.
+To get colored diff output, run git config --global color.ui auto
+
+git status
+	shows tracked/un-tracked files (and other)
