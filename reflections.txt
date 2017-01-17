@@ -24,7 +24,6 @@ git commit
 git commit -a
 	automatically add then commit (previously iunknown files are unaffected)
 
-git checkout master
 git diff
 	with no arguments compares working directory to staging area
 git diff --staged
@@ -40,5 +39,8 @@ git branch arg
 	creates branch "arg"
 get checkout arg
 	switches to branch "arg"
+git checkout master
+git remote -r (for just the remote branches)
+git remote -a (for all branches, both local and remote)
 
 	
