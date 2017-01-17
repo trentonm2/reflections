@@ -18,4 +18,22 @@ git add
 	places files into the staging area, ready for commit
 staging area
 	helps to group files to be added logically
+
+git checkout master
+git diff
+	with no arguments compares working directory to staging area
+git diff --staged
+	verify files to be committed from the staging area against the repository
+git diff reset --hard
+	same as git checkout master??, it will throw out any changes in the working directory
+	
+branches
+--------
+git branch
+	shows branches with * next to the current branch
+git branch arg
+	creates branch "arg"
+get checkout arg
+	switches to branch "arg"
+
 	
