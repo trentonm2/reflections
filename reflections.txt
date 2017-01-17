@@ -10,14 +10,19 @@ git help <command>
 	For example, to get help on the command git diff, run git help diff.
 To get colored diff output, run git config --global color.ui auto
 
+commit
+------
 git status
 	shows tracked/un-tracked files (and other)
 git init
 	starts new repository
 git add
 	places files into the staging area, ready for commit
-staging area
-	helps to group files to be added logically
+	staging area helps to group files to be added logically
+git commit
+	commit from staging area
+git commit -a
+	automatically add then commit (previously iunknown files are unaffected)
 
 git checkout master
 git diff
