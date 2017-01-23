@@ -2,6 +2,8 @@ git log --stat
 	gives +/- count of changes by file in the repository
 git diff id1 id2
 	provides diff file-by-file
+git show id1
+	shows the diff to the parent
 git --version
 	check git version
 git clone
@@ -42,5 +44,13 @@ get checkout arg
 git checkout master
 git remote -r (for just the remote branches)
 git remote -a (for all branches, both local and remote)
+git checkout -b new-branch-name (git branch new-branch-name; git checkout new-branch-name)
 
-	
+git log --graph --oneline master easy-mode coins
+	graph tree
+
+github
+------
+git remote add origin https://github.com/trentonm2/reflections.git
+git push origin master
+git pull origin master
