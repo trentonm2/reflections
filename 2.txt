@@ -7,3 +7,4 @@ It is a good idea to have an "offsite" master copy.
 Also you or others could access that remote master copy from other computers.
 
 Having the remote master ensures it is safe and available.
+
