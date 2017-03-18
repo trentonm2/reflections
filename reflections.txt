@@ -54,3 +54,11 @@ github
 git remote add origin https://github.com/trentonm2/reflections.git
 git push origin master
 git pull origin master
+
+2-step fetch/merge
+------------------
+git fetch
+	git log origin/master
+	git diff origin/master master
+git merge master origin/master
+
