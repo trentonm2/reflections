@@ -1,0 +1,5 @@
+How can you use the staging area to make sure you have one commit per logical change?
+Group files in the staging area first and confirm one logical change before making the commit.
+
+first git init on 8/30/2026
+adding a line
